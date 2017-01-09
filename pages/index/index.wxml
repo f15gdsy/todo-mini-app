@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="home page">
+  <view class="home__title">So, what now?</view>
+  <view class="home__wrapper">
+    <view class="home__hint">I wanna ...</view>
+    <view class="home__link"></view>
+    <view class="home__btn btn">
+      <view class="btn__el btn__el--{{i}}"
+        wx:for="{{[0, 1, 2]}}"
+        wx:for-index="i"></view>
+    </view>
+  </view>  
+</view>
